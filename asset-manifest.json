@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BiejFamilyHistory/static/css/main.0cc96be4.css",
-    "main.js": "/BiejFamilyHistory/static/js/main.a429789c.js",
+    "main.js": "/BiejFamilyHistory/static/js/main.3a2afd5b.js",
     "static/js/453.ed3810f9.chunk.js": "/BiejFamilyHistory/static/js/453.ed3810f9.chunk.js",
     "index.html": "/BiejFamilyHistory/index.html",
     "main.0cc96be4.css.map": "/BiejFamilyHistory/static/css/main.0cc96be4.css.map",
-    "main.a429789c.js.map": "/BiejFamilyHistory/static/js/main.a429789c.js.map",
+    "main.3a2afd5b.js.map": "/BiejFamilyHistory/static/js/main.3a2afd5b.js.map",
     "453.ed3810f9.chunk.js.map": "/BiejFamilyHistory/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0cc96be4.css",
-    "static/js/main.a429789c.js"
+    "static/js/main.3a2afd5b.js"
   ]
 }
