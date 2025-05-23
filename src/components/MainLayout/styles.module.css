@@ -1,0 +1,10 @@
+.resizeHandle {
+    background-color: #aeaeae !important;
+    width: .75rem;
+    background: 0 0;
+}
+
+.panel {
+    background-color: #dadada;
+    border-radius: 5px;
+}
