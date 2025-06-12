@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BiejFamilyHistory/static/css/main.07064b09.css",
-    "main.js": "/BiejFamilyHistory/static/js/main.afe8d75d.js",
+    "main.js": "/BiejFamilyHistory/static/js/main.22c00047.js",
     "static/js/453.68693753.chunk.js": "/BiejFamilyHistory/static/js/453.68693753.chunk.js",
     "static/media/BE3-1795_Jan_Misiewicz.jpg": "/BiejFamilyHistory/static/media/BE3-1795_Jan_Misiewicz.93f4f54c85b70d060753.jpg",
     "static/media/BE1-1795_Bieie.jpg": "/BiejFamilyHistory/static/media/BE1-1795_Bieie.80504b3f4fab09c93a36.jpg",
@@ -9,11 +9,11 @@
     "static/media/image-thumbnail.svg": "/BiejFamilyHistory/static/media/image-thumbnail.a63608bddcf30c655ca23201c3ce46d1.svg",
     "index.html": "/BiejFamilyHistory/index.html",
     "main.07064b09.css.map": "/BiejFamilyHistory/static/css/main.07064b09.css.map",
-    "main.afe8d75d.js.map": "/BiejFamilyHistory/static/js/main.afe8d75d.js.map",
+    "main.22c00047.js.map": "/BiejFamilyHistory/static/js/main.22c00047.js.map",
     "453.68693753.chunk.js.map": "/BiejFamilyHistory/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07064b09.css",
-    "static/js/main.afe8d75d.js"
+    "static/js/main.22c00047.js"
   ]
 }
