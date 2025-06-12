@@ -21,6 +21,7 @@ export const CytoChart = (props: any): ReactElement => {
     if (!cy) {
       return;
     }
+    cy.autoungrabify(true);
     cy.on("select", "node", (event) => {
       const data = event.target[0].data();
       if(data.route) {
@@ -121,7 +122,7 @@ export const CytoChart = (props: any): ReactElement => {
   ];
 
   return (
-    <div style={{position: "relative", width: "80dvw", height: "100%", maxWidth: '1000px'}}>
+    <div style={{position: "relative", width: "80dvw", height: "100%"}}>
     <CytoscapeComponent
       boxSelectionEnabled={true}
        cy={(cy): void => {

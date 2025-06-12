@@ -5,6 +5,9 @@
 }
 
 .panel {
-    background-color: #dadada;
+    background-color: #ece6e6;
     border-radius: 5px;
+    padding: 12px;
+    height: calc(100vh - 76px);
+    position: relative;
 }

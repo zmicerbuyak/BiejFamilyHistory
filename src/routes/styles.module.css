@@ -1,0 +1,11 @@
+.link{
+     cursor:pointer;
+     color:blue;
+     text-decoration:underline;
+}
+.thumbnail{
+     width: 16px;
+     height: 16px;
+     color: blue;
+     padding: 0 6px;
+}

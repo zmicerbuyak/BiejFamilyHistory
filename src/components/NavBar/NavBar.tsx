@@ -5,14 +5,14 @@ import Container from '@mui/material/Container';
 
 export function NavBar() {
   return (
-    <AppBar position="static">
-      <Container sx={{maxHeight: 64, backgroundColor: "#2c4c6b"}}  maxWidth="xl">
+    <AppBar sx={{backgroundColor: "#2c4c6b"}} position="static">
+      <Container sx={{maxHeight: 64}}  maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="./"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
