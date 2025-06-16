@@ -1,5 +1,7 @@
 import Typography from '@mui/joy/Typography';
 import { Link } from 'react-router';
+import styles from "./styles.module.css"
+import React from 'react';
 
 export function RootRoute() {
   return (
@@ -15,7 +17,7 @@ export function RootRoute() {
         </li>
     </ul>
     
-    <Typography sx={{padding: '0.125em'}}>
+    <Typography className={styles.textBlock}>
         Навигация также возможна выбором соответствующего узла в дереве, если связанная с ним статья существует
     </Typography>
 
