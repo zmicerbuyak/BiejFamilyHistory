@@ -4,7 +4,8 @@ import { NavBar } from "../NavBar/NavBar.tsx"
 import styles from "./styles.module.css"
 import elements from "../../data/cytoElements.ts";
 import { Routes, Route } from "react-router";
-import { RootRoute, BiejRoute, IntroRoute } from "../../routes/index.ts";
+import { RootRoute, BiejRoute, VajRoute, IntroRoute } from "../../routes/index.ts";
+import React from "react";
 
 function MainLayout() {
   return (
@@ -20,6 +21,7 @@ function MainLayout() {
           <Route path="/" Component={RootRoute} />
           <Route path="biej" Component={BiejRoute} />
           <Route path="intro" Component={IntroRoute} />
+          <Route path="vajtovichz" Component={VajRoute} />
           <Route path="*" element={<>404</>} />
         </Routes>
       </Panel>

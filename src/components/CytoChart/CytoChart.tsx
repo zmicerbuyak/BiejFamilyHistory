@@ -1,11 +1,9 @@
 import React, { ReactElement, useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router";
 import Cytoscape from "cytoscape";
-import TidyTree from "cytoscape-tidytree";
 import dagre from 'cytoscape-dagre';
 import CytoscapeComponent from "react-cytoscapejs";
 
-//Cytoscape.use(TidyTree);
 Cytoscape.use(dagre);
 
 export const CytoChart = (props: any): ReactElement => {
@@ -74,12 +72,12 @@ export const CytoChart = (props: any): ReactElement => {
       },
         'shape': 'round-rectangle',
         'content': 'data(label)',
-                            "background-color": "#dddddd",
-                            "font-family": "FiraMono",
-                            "font-size": "12pt",
-                            "border-width": "1px",
+                            "background-color": "#d1e78a",
+                            "font-family": "\"Roboto\", Sans serif",
+                            "font-size": "16pt",
+                            "border-width": "2px",
                             "text-valign": "center",
-                            "border-color": "#bbbbbb",
+                            "border-color": "black",
                             "border-style": "solid",
                             "text-max-width": 150,
                             "padding": 8,
@@ -97,6 +95,7 @@ export const CytoChart = (props: any): ReactElement => {
     {
       selector: ':parent',
       css: {
+                            "background-color": "#9dc6a5",
         'text-valign': 'top',
         'text-halign': 'center',
         'shape': 'round-rectangle',
@@ -116,6 +115,8 @@ export const CytoChart = (props: any): ReactElement => {
       css: {"curve-style": "taxi",
                             "taxi-direction": "downward",
                             "taxi-turn": "20px",
+                            "line-color": "black",
+                            "target-arrow-color": "black",
                             "target-arrow-shape": "triangle",
       }
     }

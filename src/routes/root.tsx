@@ -15,6 +15,9 @@ export function RootRoute() {
         <li>
             <Link to="/biej">Беи</Link>
         </li>
+        <li>
+            <Link to="/vajtovichz">Вайтовічы</Link>
+        </li>
     </ul>
     
     <Typography className={styles.textBlock}>
