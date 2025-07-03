@@ -5,23 +5,33 @@ import React from 'react';
 
 export function RootRoute() {
   return (
-    <>
-    <Typography level="h2">Список статей</Typography>
-    
+    <>    
     <ul>
         <li>
             <Link to="/intro">З чаго ўсе пачалося</Link>
         </li>
         <li>
-            <Link to="/biej">Беи</Link>
+            <Link to="/biej">Беі</Link>
         </li>
         <li>
             <Link to="/vajtovichz">Вайтовічы</Link>
         </li>
+        <li>
+            <Link to="/gavron">Гаўроны</Link>
+        </li>
+        <li>
+            <Link to="/bacianouski">Бацяноўскія</Link>
+        </li>
+        <li>
+            <Link to="/biercewicz">Бярцевічы</Link>
+        </li>
+        <li>
+            <Link to="/filipchyk">Філіпчыкі і Хвайніцкія</Link>
+        </li>
     </ul>
     
     <Typography className={styles.textBlock}>
-        Навигация также возможна выбором соответствующего узла в дереве, если связанная с ним статья существует<br></br>mal
+        Навигация также возможна выбором соответствующего узла в дереве, если связанная с ним статья существует<br></br>
     </Typography>
 
     </>

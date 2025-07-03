@@ -2,3 +2,7 @@ export * from './root.tsx';
 export * from './biej.tsx';
 export * from './introduction.tsx';
 export * from './vajtovichz.tsx';
+export * from './gavron.tsx';
+export * from './bacianouski.tsx';
+export * from './biercewicz.tsx';
+export * from './filipchyk.tsx';
