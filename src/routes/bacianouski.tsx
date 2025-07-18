@@ -7,6 +7,8 @@ import image3 from 'images/BO3.jpg';
 import image4 from 'images/BO4.jpg';
 import image5 from 'images/BO5.jpg';
 import image6 from 'images/BO6.jpg';
+import image7 from 'images/BO7.jpg';
+import image8 from 'images/BO8.jpg';
 import thumbnail from 'images/image-thumbnail.svg';
 
 import styles from "./styles.module.css"
@@ -72,7 +74,17 @@ export function BacianRoute() {
                 <img src={thumbnail} className={styles.thumbnail}></img>
             </PhotoView>
     </Typography>
-    <Typography className={styles.textBlock}>Пазней у сям’і нарадзіліся Канстанцыя (1882), Станіслаў (1890) і Францішка (пра дакладны год пакуль няма звесткаў)
+    <Typography className={styles.textBlock}>
+        У сям’і нарадзіліся дзеці: Канстанцыя (1882), Марыя (1884), Якуб IV (1888), Станіслаў (1890).
+2 верасьня 1886 году ў вёсцы Вярх-Ліда нарадзілася Францішка Бацяноўска
+        <PhotoView src={image7}>
+                <img src={thumbnail} className={styles.thumbnail}></img>
+            </PhotoView>
+    </Typography>
+    <Typography className={styles.textBlock}>Якуб IV Бацяноўскі ў 1909 годзе эміграваў у ЗША, жыў у штаце Масачусэтс. Напрыканцы Першай сусьветнай вайны служыў у берагавой артылерыі ЗША і ў супрацьпаветранай абароне ў Эўропе. Быў халасты, памёр у Бронксе ў 1945 годзе і, як вэтэран Першай сусьветнай вайны, пахаваны ў Нью-Ёрку на Нацыянальных могілках Лонг-Айленду.
+        <PhotoView src={image8}>
+                <img src={thumbnail} className={styles.thumbnail}></img>
+            </PhotoView>
     </Typography>
     </PhotoProvider>
     </>

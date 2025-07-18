@@ -4,7 +4,7 @@ import { NavBar } from "../NavBar/NavBar.tsx"
 import styles from "./styles.module.css"
 import elements from "../../data/cytoElements.ts";
 import { Routes, Route } from "react-router";
-import { RootRoute, BiejRoute, VajRoute, IntroRoute, GavronRoute, BacianRoute, BiercewiczRoute, FilipchykRoute } from "../../routes/index.ts";
+import { RootRoute, BiejRoute, VajRoute, IntroRoute, GavronRoute, BacianRoute, BiercewiczRoute, FilipchykRoute, TransatlanticRoute, WWRoute, UnsortedRoute } from "../../routes/index.ts";
 import React from "react";
 
 function MainLayout() {
@@ -26,6 +26,9 @@ function MainLayout() {
           <Route path="bacianouski" Component={BacianRoute} />
           <Route path="biercewicz" Component={BiercewiczRoute} />
           <Route path="filipchyk" Component={FilipchykRoute} />
+          <Route path="transatlantic" Component={TransatlanticRoute} />
+          <Route path="ww-card" Component={WWRoute} />
+          <Route path="unsorted" Component={UnsortedRoute} />
           <Route path="*" element={<>404</>} />
         </Routes>
       </Panel>

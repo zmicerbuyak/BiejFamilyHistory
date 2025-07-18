@@ -9,6 +9,11 @@
      color: blue;
      padding: 0 6px;
 }
+.preview{
+     width: 96px;
+     height: 96px;
+     padding: 0 6px;
+}
 
 .textBlock {
      padding: 0.3em 0.12em;

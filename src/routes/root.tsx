@@ -28,6 +28,15 @@ export function RootRoute() {
         <li>
             <Link to="/filipchyk">Філіпчыкі і Хвайніцкія</Link>
         </li>
+        <li>
+            <Link to="/transatlantic">Заакіянская радня</Link>
+        </li>
+        <li>
+            <Link to="/ww-card">Дзьве жоўтыя карткі з часоў Першай сусьветнай вайны</Link>
+        </li>
+        <li>
+            <Link to="/unsorted">Unsorted</Link>
+        </li>
     </ul>
     
     <Typography className={styles.textBlock}>

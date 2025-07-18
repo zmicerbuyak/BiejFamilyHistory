@@ -220,12 +220,9 @@ export function VajRoute() {
 <PhotoView src={image12}>
                 <img src={thumbnail} className={styles.thumbnail}></img>
             </PhotoView>
-            <br></br>
-Калі гэта наш, то можна парадавацца яго добрай форме — на  момант учынку яму было каля 70 гадоў.
-
       </Typography>
     <Typography className={styles.textBlock}>
-
+Віну не прызнаў у адрозненні ад іншых падсудных, але атрымаў прысуд да штрафу ў 1 рубель 60 капеек. Прысуд аднак не дастаўлены ў сувязі са смерцю падсуднага 03.10.1913 года. 
       </Typography>
     <Typography className={styles.textBlock}>
 
