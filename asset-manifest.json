@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BiejFamilyHistory/static/css/main.d8a257b8.css",
-    "main.js": "/BiejFamilyHistory/static/js/main.e8983af5.js",
+    "main.css": "/BiejFamilyHistory/static/css/main.48910e01.css",
+    "main.js": "/BiejFamilyHistory/static/js/main.d6912248.js",
     "static/js/453.68693753.chunk.js": "/BiejFamilyHistory/static/js/453.68693753.chunk.js",
     "static/media/BEBO1.jpg": "/BiejFamilyHistory/static/media/BEBO1.f6c6c42146ebd43c5314.jpg",
     "static/media/FL9.jpg": "/BiejFamilyHistory/static/media/FL9.8282e2f31c95dfef0eea.jpg",
@@ -68,16 +68,19 @@
     "static/media/BO7.jpg": "/BiejFamilyHistory/static/media/BO7.967614c73137212806e5.jpg",
     "static/media/BE2.jpg": "/BiejFamilyHistory/static/media/BE2.1365369311d5d08e30d3.jpg",
     "static/media/WO12.png": "/BiejFamilyHistory/static/media/WO12.16ae5db8ba9c2c6130f3.png",
+    "static/media/US3.jpg": "/BiejFamilyHistory/static/media/US3.2f5827613547d0887157.jpg",
     "static/media/BO8.jpg": "/BiejFamilyHistory/static/media/BO8.c70d52d3849c5dc757be.jpg",
     "static/media/BEBO15.png": "/BiejFamilyHistory/static/media/BEBO15.e9c1427b419335b3f6b3.png",
+    "static/media/US1.jpg": "/BiejFamilyHistory/static/media/US1.c462a7de9890f4c172fa.jpg",
+    "static/media/US2.jpg": "/BiejFamilyHistory/static/media/US2.e16a3416f007ef58ec53.jpg",
     "static/media/image-thumbnail.svg": "/BiejFamilyHistory/static/media/image-thumbnail.a63608bddcf30c655ca23201c3ce46d1.svg",
     "index.html": "/BiejFamilyHistory/index.html",
-    "main.d8a257b8.css.map": "/BiejFamilyHistory/static/css/main.d8a257b8.css.map",
-    "main.e8983af5.js.map": "/BiejFamilyHistory/static/js/main.e8983af5.js.map",
+    "main.48910e01.css.map": "/BiejFamilyHistory/static/css/main.48910e01.css.map",
+    "main.d6912248.js.map": "/BiejFamilyHistory/static/js/main.d6912248.js.map",
     "453.68693753.chunk.js.map": "/BiejFamilyHistory/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8a257b8.css",
-    "static/js/main.e8983af5.js"
+    "static/css/main.48910e01.css",
+    "static/js/main.d6912248.js"
   ]
 }
